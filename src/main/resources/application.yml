@@ -2,7 +2,7 @@ spring:
   main:
     banner-mode: off
   datasource:
-    url: jdbc:mysql://localhost:3306/pagination
+    url: jdbc:mysql://localhost:3306/pagination?createDatabaseIfNotExist=true
     password: Password@1
     username: root
   jpa:
